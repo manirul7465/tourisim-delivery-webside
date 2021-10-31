@@ -1,0 +1,11 @@
+.bonus{
+    display: flex;
+    justify-content: center;
+    
+}
+.member{
+    margin: 10px;
+}
+.sales{
+    display: flex;
+}
