@@ -20,7 +20,6 @@ const Header = () => {
           <Nav.Link  as={Link}to="/manageorders">manage all orders</Nav.Link>
           <Nav.Link  as={Link}to="/addservice">Add a new items</Nav.Link>
           { user?.email ?
-
             <Button onClick={logOut} variant="light">logOut</Button>:
             <Nav.Link  as={Link}to="/login">login</Nav.Link>
           }
